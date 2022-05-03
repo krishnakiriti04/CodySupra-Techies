@@ -1,0 +1,102 @@
+{
+    "slider": [
+        {
+            "heading1": "We Are",
+            "heading2": "Digital Pioneers in Web Design",
+            "body": "Experience top-notch pixel-perfect and eye catching custom websites build to suit your requirements"
+        }
+    ],
+    "whyUs": {
+        "title": "Why us",
+        "text1": "We provide innovative and robust software & solutions for the world market. Our Company has been blessed with highly skilled certified professionals. We design the applications with best suitable architect approach after make the complete core analysis. ",
+        "text2": "We have an excellent designer team and Quality control cell. We deliver high quality work under reasonable cost without compromising the deadline time & quality of the work."
+    },
+    "counter": [
+        {
+            "name": "Satisfied Clients",
+            "count": 50
+        },
+        {
+            "name": "Projects Delivered",
+            "count": 20
+        },
+        {
+            "name": "Years Completed",
+            "count": 5
+        }
+    ],
+    "features": {
+        "title": "Our work process",
+        "leftFeatures": [
+            {
+                "id": 1,
+                "icon": "flaticon-idea",
+                "heading": "Idea & Analysis",
+                "text": "We listen to your idea and gather all requirements and analyse all conditions before project starting",
+                "text1": "Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis."
+            },
+            {
+                "id": 2,
+                "icon": "flaticon-vector",
+                "heading": "Designing",
+                "text1": "We love to design pixel-perfect and buttery UI designs.",
+                "text2": "the system and software design documents are prepared as per the requirement specification document. This helps define overall system architecture.",
+                "text": "The architecture of the project will be designed as per your business requirements which includes both LLD and HLD."
+            }
+        ],
+        "rightFeatures": [
+            {
+                "id": 1,
+                "icon": "flaticon-coding",
+                "heading": "Development",
+                "text1": "Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.",
+                "text": "Following all the coding guidelines the design will be brought to life by our expert developers."
+            },
+            {
+                "id": 2,
+                "icon": "flaticon-rocket",
+                "heading": "Product Launch",
+                "text1": "Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.",
+                "text": "Post the product demo the project will be launched and it will be available for the target audience. "
+            }
+        ]
+    },
+    "newsletter": {
+        "heading": "Subscribe to our newsletter for latest update of our services and projects ",
+        "text": ""
+    },
+    "testimonials": {
+        "title": "See what our clients have to say about us",
+        "text": "Client satisfaction is our utmost priority and we never compromise on that.",
+        "Alltestimonials": [
+            {
+                "name": "Ravi Krishna",
+                "position": "Business Analyst",
+                "review": "“CodySupra Techies listened to my design needs with the utmost attention and their work was outstanding in all aspects. Looking forward to future business with them again.”",
+                "rating": 5,
+                "image": "images/testimonials/pic2.jpg"
+            },
+            {
+                "name": "Roshini Patil",
+                "position": "CEO & Founder",
+                "review": "“A new feature has to be added with a tight deadline and CodySupra Techies were proficient, enthusiastic, timely, successful, and a real pleasure to work with.”",
+                "rating": 5,
+                "image": "images/testimonials/pic1.jpg"
+            },
+            {
+                "name": "Ravi Krishna",
+                "position": "Business Analyst",
+                "review": "“CodySupra Techies listened to my design needs with the utmost attention and their work was outstanding in all aspects. Looking forward to future business with them again.”",
+                "rating": 5,
+                "image": "images/testimonials/pic2.jpg"
+            },
+            {
+                "name": "Roshini Patil",
+                "position": "CEO & Founder",
+                "review": "“A new feature has to be added with a tight deadline and CodySupra Techies were proficient, enthusiastic, timely, successful, and a real pleasure to work with.”",
+                "rating": 5,
+                "image": "images/testimonials/pic1.jpg"
+            }
+        ]
+    }
+}
