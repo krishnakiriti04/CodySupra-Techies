@@ -144,12 +144,10 @@
 		position: relative;
 	}
 	.extra-nav {
-		float: right;
 		display: flex;
 		align-items: center;
 		position: relative;
 		z-index: 9;
-		margin-left: 20px;
 		height: 85px;
 	
 		#quik-search-btn{
@@ -179,9 +177,9 @@
 				}
 			}
 		}
-		@include respond('phone'){
-			display: none;
-		}
+		// @include respond('phone'){
+		// 	display: none;
+		// }
 	}
 }
 

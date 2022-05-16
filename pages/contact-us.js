@@ -1,27 +1,21 @@
+import Link from "next/link";
 import Head from "next/head";
+import Quote3 from "../element/quote-3";
 import Footer3 from "../layout/footer-3";
 import Header3 from "../layout/header-3";
-import { useState } from "react";
-// import AllServices3 from "../element/all-services-3";
-// import Clients3 from "../element/clients-3";
-import Service3 from "../element/service-3";
-// import Testimonial3 from "../element/testimonial-3";
-// import TeamSlider3 from "../component/teamSlider-3";
-import Link from "next/link";
-
 import companyInfo from "../data/companyInfo.json";
-function Services3() {
+import GetInTouch3 from "../element/get-in-touch";
+function ContactUs1() {
   const { companyName } = companyInfo;
-  const [open, setOpen] = useState("p2");
   return (
     <>
       <Head>
-        <title>Services - {companyName}</title>
+        <title>Contact Us - {companyName}</title>
         <meta
           name="description"
-          content="Services Page for CodySupra Techies"
+          content="Contact Us Page for CodySupra Techies"
         />
-        <meta property="og:title" content={`Services - ${companyName}`} />
+        <meta property="og:title" content={`Contact Us - ${companyName}`} />
       </Head>
       <Header3 />
       <div className="page-content bg-white">
@@ -35,7 +29,7 @@ function Services3() {
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
-              <h1>Services</h1>
+              <h1>Contact Us</h1>
               {/* <!-- Breadcrumb Row --> */}
               <nav aria-label="breadcrumb" className="breadcrumb-row style-1">
                 <ul className="breadcrumb">
@@ -45,7 +39,7 @@ function Services3() {
                     </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    Services
+                    Contact Us
                   </li>
                 </ul>
               </nav>
@@ -53,15 +47,14 @@ function Services3() {
             </div>
           </div>
         </div>
-        {/* <!-- Banner End -->  */}
+        {/* <!-- Banner End --> */}
 
-        {/* <!-- Services --> */}
-        {/* <AllServices3 />      */}
-        <Service3 />
+        {/* <!-- Get A Quote --> */}
+        <GetInTouch3 />
       </div>
       <Footer3 />
     </>
   );
 }
 
-export default Services3;
+export default ContactUs1;

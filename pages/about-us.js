@@ -7,11 +7,21 @@ import Testimonial3 from "../element/testimonial-3";
 import AboutUs3 from "../element/aboutUs-3";
 import Footer3 from "../layout/footer-3";
 import Header3 from "../layout/header-3";
-
+import Head from "next/head";
+import companyInfo from "../data/companyInfo.json";
 function AboutUs() {
+  const { companyName } = companyInfo;
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <Head>
+        <title>About - {companyName}</title>
+        <meta
+          name="description"
+          content="About Us Page for CodySupra Techies"
+        />
+        <meta property="og:title" content={`About Us - ${companyName}`} />
+      </Head>
       <Header3 />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
@@ -131,7 +141,7 @@ function AboutUs() {
                       Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
                       venenatis ipsum, et porttitor.
                     </p>
-                    <Link href="services-3">
+                    <Link href="/services-3">
                       <a className="btn btn-outline-primary">
                         <i className="fa fa-angle-right"></i>
                       </a>
@@ -157,7 +167,7 @@ function AboutUs() {
                       Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
                       venenatis ipsum, et porttitor.
                     </p>
-                    <Link href="services-3">
+                    <Link href="/services-3">
                       <a className="btn btn-outline-primary">
                         <i className="fa fa-angle-right"></i>
                       </a>
@@ -183,7 +193,7 @@ function AboutUs() {
                       Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
                       venenatis ipsum, et porttitor.
                     </p>
-                    <Link href="services-3">
+                    <Link href="/services-3">
                       <a className="btn btn-outline-primary">
                         <i className="fa fa-angle-right"></i>
                       </a>

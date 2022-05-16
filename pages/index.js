@@ -14,6 +14,7 @@ import Blog3 from "./../element/blog-3";
 import Clients3 from "./../element/clients-3";
 import Footer3 from "./../layout/footer-3";
 import Header3 from "./../layout/header-3";
+import PortfolioSlider from "../component/portflioSlider";
 
 import companyInfo from "../data/companyInfo.json";
 function Index3() {
@@ -31,7 +32,8 @@ function Index3() {
         <Service3 />
         <AboutUs3 />
         <Features3 />
-        <Projects3 />
+        {/* <Projects3 /> */}
+        <PortfolioSlider />
         <Newsletter3 />
         {/* <Team3 /> */}
         {/* <PricingT3 /> */}

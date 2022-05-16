@@ -3,9 +3,20 @@ import Header from "../layout/header-3";
 import Portfolio3 from "../component/portfolio-3";
 import Link from "next/link";
 
+import Head from "next/head";
+import companyInfo from "../data/companyInfo.json";
 function Portfolio() {
+  const { companyName } = companyInfo;
   return (
     <>
+      <Head>
+        <title>Portfolio - {companyName}</title>
+        <meta
+          name="description"
+          content="Portfolio Page for CodySupra Techies"
+        />
+        <meta property="og:title" content={`Portfolio - ${companyName}`} />
+      </Head>
       <Header />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}

@@ -1,10 +1,24 @@
+import { useState } from "react";
 import companyInfo from "../data/companyInfo.json";
-
+import ModalComponent from "../component/modal";
 function Footer3() {
   const { companyName, developersite, email, phone, location } = companyInfo;
+  const [isOpen, setIsOpen] = useState(false);
+  const [title, setTitle] = useState("");
+
+  const clickHandler = (e, value, name) => {
+    e?.preventDefault();
+    setIsOpen(value);
+    setTitle(name);
+  };
   return (
     <>
       {/* <!-- Footer --> */}
+      <ModalComponent
+        show={isOpen}
+        onHide={(e) => clickHandler(e, false, "")}
+        title={title}
+      />
       <footer
         className="site-footer style-3"
         id="footer"
@@ -26,7 +40,7 @@ function Footer3() {
                   <div className="footer-logo mb-0">
                     <a href="/">
                       <img
-                        src="images/logo-cody/logo_transparent.png"
+                        src="images/logo-cody/logo_footer.png"
                         alt="logo-footer"
                         height={400}
                         width={400}
@@ -94,13 +108,13 @@ function Footer3() {
                   <h5 className="footer-title">Our Services</h5>
                   <ul>
                     <li>
-                      <a href="#">Web Development</a>
+                      <a href="/services-details">Web Development</a>
                     </li>
                     <li>
-                      <a href="#">Hosting Services</a>
+                      <a href="/services-details">Hosting Services</a>
                     </li>
                     <li>
-                      <a href="#">Cloud Solutions</a>
+                      <a href="/services-details">Cloud Solutions</a>
                     </li>
                   </ul>
                 </div>
@@ -117,10 +131,22 @@ function Footer3() {
                       <a href="/faq">FAQ</a>
                     </li>
                     <li>
-                      <a href="#">Privacy Policy</a>
+                      <a
+                        href="#"
+                        onClick={(e) => clickHandler(e, true, "Privacy Policy")}
+                      >
+                        Privacy Policy
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Terms & Conditions</a>
+                      <a
+                        href="#"
+                        onClick={(e) =>
+                          clickHandler(e, true, "Terms & Conditions")
+                        }
+                      >
+                        Terms & Conditions
+                      </a>
                     </li>
                   </ul>
                 </div>

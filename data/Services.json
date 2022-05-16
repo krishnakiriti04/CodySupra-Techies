@@ -4,15 +4,13 @@
         {
             "id": 1,
             "icon": "flaticon-office",
-            "images": [
-                "/images/services/draft-1.jpg",
-                "/images/services/draft-2.jpg"
-            ],
+            "img": "images/blog/default/webdev.png",
             "shadow": "bg-yellow shadow-yellow",
             "heading": "Web Development",
             "text1": "Mechanical CAD Drafting Services provides technical drawings from the CAD Software that tells about how a mechanism is assembled and how it will function for part, component, or product modeling",
             "text": "We provide all types of web-based software and ensure great experience for web users. At CodySupra Techies we professionally design, develop and provide high quality user experience to all our customers to achieve high conversion and adoption rates.",
-            "longDesc": "Our CAD experts and industrial design engineers deliver comprehensive CAD drafting with detailed engineering specifications to develop ideas into products. From CAD modeling to proof of design concepts with FEA and CFD simulations and final shop drawings, our teams deliver onsite and offsite models as per industry standards and design guidelines of DFMA, ASME, BS etc.",
+            "longDesc1": "As a leading web development company, we always create robust, secure, custom web application with high scalability. According to the need of product, we use open source technology to develop a product with high quality standard. We help you stand out in this digital world by providing bespoke web development solutions.",
+            "longDesc2": "CodySupra Techies has been developing futuristic website and web applications that take businesses to greater heights. Our highly skilled web developers adopted a customer focused approach by upgrading their self to latest web technologies.",
             "benefits": {
                 "title": "Key benefits with us",
                 "list": [
@@ -26,15 +24,13 @@
         {
             "id": 2,
             "icon": "flaticon-coding",
-            "images": [
-                "/images/services/structure-design-1.jpg",
-                "/images/services/structure-design-2.jpg"
-            ],
+            "img": "images/blog/default/hosting.png",
             "shadow": "bg-red shadow-red",
             "heading": "Hosting Services",
             "text": "We provide customized hosting services tailored for your business. We deliver the complete package of speed, security, versatility, and most importantly, superb reliability. As your website grows, get the scalability and features you need to keep pace with your success.",
             "text1": "Structural design is the a investigation of the stability, strength and rigidity of structures. The basic objective in structural design is to produce a structure capable of resisting all loads without failure during its intended life",
-            "longDesc": "Our structural design teams have an extensive experience in developing structural drawings and models for various structural elements to develop reliable structures of concrete, steel, wood and fiberglass. We have expertise in preparing a structured problem solving approach using STADDPro for complex structural geometry, steel detailing and analysis and help builders construct seamlessly.",
+            "longDesc1": "The web hosting field is a crowded one, so it takes a special service to stand out from the ever-expanding pack. Our hosting services, with its many capable offerings, falls into that category. The web hosting service has a rich feature set that satisfies many personal- and business-related web hosting needs with its reasonably priced and well-rounded shared, dedicated, reseller, virtual private server (VPS), and WordPress plans. Its uptime and customer service are excellent, too.",
+            "longDesc2": "Building a website doesn't need to be an expensive endeavor. If you want to dabble in cheap web hosting, check out shared hosting. With shared hosting, your site is in a roommate situation with many other sites on a single server, so you split the server cost and the available resources. Shared web hosting isn't very powerful, but it's a solid solution if you don't expect tremendous website traffic.",
             "benefits": {
                 "title": "Expertise in assisting companies for structural 3D modeling and drafting",
                 "list": [
@@ -49,22 +45,20 @@
         {
             "id": 3,
             "icon": "flaticon-laptop",
-            "images": [
-                "/images/services/sheet-metal-1.jpg",
-                "/images/services/sheet-metal-2.jpg"
-            ],
+            "img": "images/blog/default/cloud.png",
             "heading": "Cloud Solutions",
             "shadow": "bg-green shadow-green",
             "text": "Accelerate business agility and growth—continuously modernize your apps on any platform using a hybrid cloud approach. We work with you to determine the right cloud strategy, cloud solutions, operating model, combining our expertise with technology insights.",
             "text1": "Sheet Metal Design Services is made for the manufacturers to create actual objects such as HVAC systems, enclosures, signs, etc. which is compliant with the industry standard and improves the productivity of sheet designing.",
-            "longDesc": "We develop detailed sheet metal shop drawings by considering the material type, finish, critical dimension, hardware and bought-out parts by considering building product manufacturer’s tooling capabilities",
+            "longDesc1": "To revolutionize your business with exclusive app solutions, you must need on-demand access to all of your tools and apps. However, you might be worried about technical issues and maintenance of equipment that take a lot of money and time. Fortunately, you can lay your hands on our cloud computing solutions to get a secure place for hosting your infrastructure, programs, and data.",
+            "longDesc2": "At CodySupra Techies, we provide you on-demand access to the most recent, highly performing, and fastest technologies to help you optimize your business operations. Our cloud computing services free up space on your system, reduce unwanted hardware, save you money and enhance mobility.",
             "benefits": {
-                "title": "Benefits of custom sheet metal CAD drafting services",
+                "title": "Use our cloud computing services to ease app use, share, store, and safeguard content, allowing access from an internet-powered device. We make sure cost-effective, flexible, and scalable cloud computing solutions. Some major cloud computing services that we provide incorporate:",
                 "list": [
-                    "Custom drawings as per tooling capabilities",
-                    "Reduced engineering change orders",
-                    "Ensure 99% drawing accuracy",
-                    "Direct delivery of drawings CNC shops"
+                    "Cloud app development",
+                    "Cloud configuration",
+                    "Cloud Integration",
+                    "Cloud Security"
                 ]
             }
         }
