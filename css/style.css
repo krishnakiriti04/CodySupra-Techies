@@ -10584,7 +10584,7 @@ textarea {
     top: 0;
     width: 0;
     height: 0;
-    opacity: 0.4;
+    opacity: 1;
     z-index: 1;
     -webkit-transition: all 0.8s linear;
     -moz-transition: all 0.8s linear;
@@ -10642,13 +10642,39 @@ textarea {
   height: 100%;
   opacity: 0.3; }
 
+.dlab-img-overlay1 .dlab-mask .dlab-mask-desc,
+.dlab-img-overlay1 .dlab-mask .dlab-mask-link {
+  opacity: 0;
+  position: absolute;
+  margin: 20px; }
+
+.dlab-img-overlay1 .dlab-mask .dlab-mask-desc {
+  top: 30%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #faf8f2; }
+
+.dlab-img-overlay1 .dlab-mask .dlab-mask-link {
+  top: 60%;
+  padding: 10px;
+  background-color: #5543d1;
+  color: #faf8f2;
+  text-decoration: none;
+  border: 1px solid #5543d1;
+  border-radius: 10px; }
+
 .dlab-img-overlay1:before {
   width: 100%;
   height: 100%;
   opacity: 0; }
 
 .dlab-img-overlay1:hover:before {
-  opacity: 0.5; }
+  opacity: 0.7; }
+
+.dlab-img-overlay1:hover .dlab-mask .dlab-mask-desc,
+.dlab-img-overlay1:hover .dlab-mask .dlab-mask-link {
+  opacity: 1;
+  z-index: 1000; }
 
 .dlab-img-overlay2:before {
   width: 100%;
@@ -14492,12 +14518,10 @@ icon-bx-wraper style-4:hover .icon-cell i,
   .site-header .container {
     position: relative; }
   .site-header .extra-nav {
-    float: right;
     display: flex;
     align-items: center;
     position: relative;
     z-index: 9;
-    margin-left: 20px;
     height: 85px; }
     .site-header .extra-nav #quik-search-btn {
       color: #020d26;
@@ -14518,9 +14542,6 @@ icon-bx-wraper style-4:hover .icon-cell i,
         height: 40px;
         line-height: 40px;
         border-radius: 4px; }
-    @media only screen and (max-width: 575px) {
-      .site-header .extra-nav {
-        display: none; } }
 
 .navbar-toggler {
   border: 0 solid #efbb20;

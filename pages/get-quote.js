@@ -1,11 +1,22 @@
 import Link from "next/link";
+import Head from "next/head";
 import Quote3 from "../element/quote-3";
 import Footer3 from "../layout/footer-3";
 import Header3 from "../layout/header-3";
+import companyInfo from "../data/companyInfo.json";
 
-function ContactUs1() {
+function GetQuote() {
+  const { companyName } = companyInfo;
   return (
     <>
+      <Head>
+        <title>Get Quote - {companyName}</title>
+        <meta
+          name="description"
+          content="Get Quote Page for CodySupra Techies"
+        />
+        <meta property="og:title" content={`Get Quote - ${companyName}`} />
+      </Head>
       <Header3 />
       <div className="page-content bg-white">
         {/* <!-- Banner  --> */}
@@ -18,7 +29,7 @@ function ContactUs1() {
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
-              <h1>Contact Us</h1>
+              <h1>Get A Quote</h1>
               {/* <!-- Breadcrumb Row --> */}
               <nav aria-label="breadcrumb" className="breadcrumb-row style-1">
                 <ul className="breadcrumb">
@@ -28,7 +39,7 @@ function ContactUs1() {
                     </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    Contact Us
+                    Get A Quote
                   </li>
                 </ul>
               </nav>
@@ -39,11 +50,11 @@ function ContactUs1() {
         {/* <!-- Banner End --> */}
 
         {/* <!-- Get A Quote --> */}
-        <Quote3/>
+        <Quote3 />
       </div>
       <Footer3 />
     </>
   );
 }
 
-export default ContactUs1;
+export default GetQuote;

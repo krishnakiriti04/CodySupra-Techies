@@ -14,15 +14,15 @@
     "counter": [
         {
             "name": "Satisfied Clients",
-            "count": 50
+            "count": 10
         },
         {
             "name": "Projects Delivered",
-            "count": 20
+            "count": 5
         },
         {
             "name": "Years Completed",
-            "count": 5
+            "count": 1
         }
     ],
     "features": {

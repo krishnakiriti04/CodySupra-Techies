@@ -42,7 +42,7 @@ function Slider3() {
                       >
                         {banner1.body}
                       </p>
-                      <Link href="/about-us-3">
+                      <Link href="/about-us">
                         <a
                           data-wow-duration="3s"
                           data-wow-delay="2s"

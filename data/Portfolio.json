@@ -1,64 +1,57 @@
 {
     "portfolioData": [
         {
-            "title": "Software Landing Page Design",
-            "category": [
-                "all",
-                "web_design",
-                "branding"
-            ],
-            "src": "/images/projects/project-1/pic1.jpg",
-            "author": "Jhone Doe"
-        },
-        {
-            "title": "Software Landing Page Design",
-            "category": [
-                "all",
-                "web_development",
-                "branding"
-            ],
-            "src": "/images/projects/project-1/pic2.jpg",
-            "author": "Jhone Doe"
-        },
-        {
-            "title": "Software Landing Page Design",
+            "id": 1,
+            "title": "Draft Designers",
             "category": [
                 "all",
                 "web_design",
                 "seo"
             ],
-            "src": "/images/projects/project-1/pic3.jpg",
-            "author": "Jhone Doe"
+            "src": "/images/projects/project-1/DraftDesigners.png",
+            "author": "Prashant Gupta",
+            "description": "",
+            "url": "https://www.draftdesigners.com/"
         },
         {
-            "title": "Software Landing Page Design",
-            "category": [
-                "all",
-                "web_design",
-                "branding"
-            ],
-            "src": "/images/projects/project-1/pic4.jpg",
-            "author": "Jhone Doe"
-        },
-        {
-            "title": "Software Landing Page Design",
+            "id": 2,
+            "title": "DHPL Fincorp",
             "category": [
                 "all",
                 "web_development",
                 "seo"
             ],
-            "src": "/images/projects/project-1/pic5.jpg",
-            "author": "Jhone Doe"
+            "src": "/images/projects/project-1/Dhpl.png",
+            "author": "Krishna Kireeti",
+            "description": "",
+            "url": "https://dhplfincorp.com/"
         },
         {
-            "title": "Software Landing Page Design",
+            "id": 3,
+            "title": "SannidhiVariCreations",
             "category": [
                 "all",
-                "mobile_app",
+                "web_design",
+                "branding",
+                "seo"
+            ],
+            "src": "/images/projects/project-1/Svc.png",
+            "author": "Jhone Doe",
+            "description": "",
+            "url": "https://sannidhivaricreationsdemo.netlify.app/"
+        },
+        {
+            "id": 4,
+            "title": "Construction Materials Management",
+            "category": [
+                "all",
+                "web_design",
                 "branding"
             ],
-            "src": "/images/projects/project-1/pic6.jpg",
-            "author": "Jhone Doe"
+            "src": "/images/projects/project-1/ComingSoon.png",
+            "author": "Jhone Doe",
+            "description": "",
+            "url": "#"
         }
     ]
 }

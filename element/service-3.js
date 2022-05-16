@@ -38,7 +38,7 @@ function Service3() {
                   <div className="icon-content">
                     <h4 className="dlab-title m-b15">{service.heading}</h4>
                     <p className="m-b20 text-justify">{service.text}</p>
-                    <Link href="services-3">
+                    <Link href="/services-details">
                       <a className="btn btn-outline-primary">
                         <i className="fa fa-angle-right"></i>
                       </a>
@@ -72,7 +72,7 @@ function Service3() {
                     Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
                     venenatis ipsum, et porttitor.
                   </p>
-                  <Link href="services-3">
+                  <Link href="/services-3">
                     <a className="btn btn-outline-primary">
                       <i className="fa fa-angle-right"></i>
                     </a>
@@ -105,7 +105,7 @@ function Service3() {
                     Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
                     venenatis ipsum, et porttitor.
                   </p>
-                  <Link href="services-3">
+                  <Link href="/services-3">
                     <a className="btn btn-outline-primary">
                       <i className="fa fa-angle-right"></i>
                     </a>
@@ -138,7 +138,7 @@ function Service3() {
                     Nulla vulputate, leo sit amet rhoncus suscipit, enim ex
                     venenatis ipsum, et porttitor.
                   </p>
-                  <Link href="services-3">
+                  <Link href="/services-3">
                     <a className="btn btn-outline-primary">
                       <i className="fa fa-angle-right"></i>
                     </a>
